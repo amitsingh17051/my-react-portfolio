@@ -6,7 +6,7 @@ import thekidsgate from './thekidsgate.png';
 import pic01 from './pic01.jpg';
 import pic02 from './pic02.jpg';
 import pic03 from './pic03.jpg';
-import { FaCode, FaLock, FaCog, FaDesktop } from "react-icons/fa";
+import { FaCode, FaLock, FaCog, FaDesktop, FaTwitterSquare, FaFacebookSquare, FaGithubSquare, FaLinkedin } from "react-icons/fa";
 import AddScript from './AddScript';
 
 function Sidebar() {
@@ -185,10 +185,10 @@ function Three() {
               <li>
                 <h3>Social</h3>
                 <ul className="icons">
-                  <li><a href="https://twitter.com/amitsingh17051" target="_blank" className="icon brands fa-twitter"><span className="label">Twitter</span></a></li>
-                  <li><a href="https://www.facebook.com/amitsingh17051" target="_blank" className="icon brands fa-facebook-f"><span className="label">Facebook</span></a></li>
-                  <li><a href="https://github.com/amitsingh17051" target="_blank" className="icon brands fa-github"><span className="label">GitHub</span></a></li>
-                  <li><a href="https://www.linkedin.com/in/amit-kumar-48a56176/" target="_blank" className="icon brands fa-linkedin-in"><span className="label">LinkedIn</span></a></li>
+                  <li><a href="https://twitter.com/amitsingh17051" target="_blank" className="icon brands fa-twitter"><FaTwitterSquare /><span className="label">Twitter</span></a></li>
+                  <li><a href="https://www.facebook.com/amitsingh17051" target="_blank" className="icon brands fa-facebook-f"><FaFacebookSquare /><span className="label">Facebook</span></a></li>
+                  <li><a href="https://github.com/amitsingh17051" target="_blank" className="icon brands fa-github"><FaGithubSquare /><span className="label">GitHub</span></a></li>
+                  <li><a href="https://www.linkedin.com/in/amit-kumar-48a56176/" target="_blank" className="icon brands fa-linkedin-in"><FaLinkedin /><span className="label">LinkedIn</span></a></li>
                 </ul>
               </li>
             </ul>
@@ -230,15 +230,6 @@ function Footer() {
 
 
 function Home() {
-
-AddScript("/assets/jquery.min.js")
-AddScript("/assets/jquery.scrollen.js")
-AddScript("/assets/jquery.scrolly.js")
-AddScript("/assets/browser.min.js")
-AddScript("/assets/breakpoints.min.js")
-AddScript("/assets/util.js")
-AddScript("/assets/main.js")
-
 return( 
     <div className="App">
         <Sidebar />

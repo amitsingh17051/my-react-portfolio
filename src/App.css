@@ -2831,6 +2831,7 @@ input, select, textarea {
 		ul.icons li {
 			display: inline-block;
 			padding: 0 0.75em 0 0;
+			font-size: 30px;
 		}
 
 			ul.icons li:last-child {

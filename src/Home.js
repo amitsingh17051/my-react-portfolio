@@ -162,7 +162,7 @@ function Three() {
                 </div>
               </div>
               <ul className="actions">
-                <li><a href=""  className="button submit"><button type="submit">Send Message</button></a></li>
+                <li><button className="buton submit" ype="submit">Send Message</button></li>
               </ul>
             </form>
           </section>

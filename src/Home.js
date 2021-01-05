@@ -162,7 +162,7 @@ function Three() {
                 </div>
               </div>
               <ul className="actions">
-                <li><a href="" onclick="document.getElementById('contact').submit()" className="button submit">Send Message</a></li>
+                <li><a href=""  className="button submit"><button type="submit">Send Message</button></a></li>
               </ul>
             </form>
           </section>

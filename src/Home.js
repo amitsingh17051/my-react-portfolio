@@ -162,7 +162,7 @@ function Three() {
                 </div>
               </div>
               <ul className="actions">
-                <li><a href="" onclick="$(this).closest('form').submit()" className="button submit">Send Message</a></li>
+                <li><a href="" onclick="document.getElementById('form-id').submit()" className="button submit">Send Message</a></li>
               </ul>
             </form>
           </section>

@@ -146,7 +146,7 @@ function Three() {
             and ~let's talk</p>
         <div className="split style1">
           <section>
-            <form id="contact" method="POST" data-netlify="true" name="contact" >
+            <form id="contact" method="POST" netlify netlify-honeypot="bot-field" name="contact" >
               <div className="fields">
                 <div className="field half">
                   <label htmlFor="name">Name</label>

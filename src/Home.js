@@ -146,7 +146,7 @@ function Three() {
             and ~let's talk</p>
         <div className="split style1">
           <section>
-            <form method="post" action="#">
+            <form method="POST" data-netlify="true" name="contact" >
               <div className="fields">
                 <div className="field half">
                   <label htmlFor="name">Name</label>
@@ -162,7 +162,7 @@ function Three() {
                 </div>
               </div>
               <ul className="actions">
-                <li><a href="" className="button submit">Send Message</a></li>
+                <li><a href="" onclick="$(this).closest('form').submit()" className="button submit">Send Message</a></li>
               </ul>
             </form>
           </section>
